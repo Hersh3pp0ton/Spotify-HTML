@@ -15,8 +15,10 @@
 
 body {
   margin: 0px;
+  background-color: #1f1f1f;
 }
 
 p {
   font-family: 'Gotham Medium';
+  font-weight: bold;
 }
