@@ -1,0 +1,79 @@
+.home-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.library-div {
+  background-color: #121212;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-top: 15px;
+  width: 370px;
+  height: 82vh;
+}
+
+.library-img {
+  width: 27px;
+  padding-right: 10px;
+}
+
+.la-tua-libreria-div {
+  display: flex;
+  align-items: center;
+}
+
+.la-tua-libreria-div div {
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+
+.la-tua-libreria-div div p {
+  color: #b3b3b3;
+}
+
+.add-goto-div {
+  width: 200px;
+  display: flex;
+  justify-content: end;
+}
+
+.add-goto-img {
+  width: 20px;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+
+
+
+
+.main-div {
+  background-color: #121212;
+  padding-top: 15px;
+  padding-left: 15px;
+  border-radius: 10px;
+  width: 1050px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 82vh;
+}
+
+@media screen and (min-width: 1845px) {
+  .main-div {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.current-song-div {
+  background-color: #121212;
+  width: 370px;
+  border-radius: 10px;
+  height: 82vh;
+  padding-top: 15px;
+  padding-left: 15px;
+}

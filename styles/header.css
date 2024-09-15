@@ -13,8 +13,15 @@
 }
 
 .navbar-div {
+  margin-left: 400px;
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 1460px) {
+  .navbar-div {
+    margin-left: 10px;
+  }
 }
 
 .home-button {
@@ -63,6 +70,7 @@
 }
 
 .right-header-section-div {
+  margin-left: 10px;
   display: flex;
   align-items: center;
 }
@@ -128,3 +136,4 @@
   height: 40px;
   border-radius: 50%;
 }
+
