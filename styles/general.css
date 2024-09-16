@@ -7,6 +7,10 @@
   font-family: 'Gotham Bold';
   src: url('../fonts/GothamBold.ttf') format('truetype'); 
 }
+@font-face {
+  font-family: 'Gotham Light';
+  src: url('../fonts/Gotham-Light.otf') format('opentype'); 
+}
 
 @font-face {
   font-family: 'Gotham Black';
@@ -20,6 +24,8 @@ body {
 
 p {
   font-family: 'Gotham Medium';
-  
+  color: white;
   font-weight: bold;
+  margin: 0px;
+  padding: 0px;
 }

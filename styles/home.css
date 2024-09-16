@@ -9,20 +9,31 @@
 .library-div {
   background-color: #121212;
   border-radius: 10px;
-  padding-left: 15px;
+  padding-left: 20px;
   padding-top: 15px;
-  width: 370px;
+  width: 20vw;
   height: 82vh;
+  overflow-y: scroll;
+}
+
+.library-div::-webkit-scrollbar {
+  display: none;    /* Chrome, Safari and Opera */
+}
+
+.library-div {
+  -ms-overflow-style: none;   /* IE and Edge */
+  scrollbar-width: none;    /* Firefox */
 }
 
 .library-img {
-  width: 27px;
+  width: 25px;
   padding-right: 10px;
 }
 
 .la-tua-libreria-div {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .la-tua-libreria-div div {
@@ -43,12 +54,113 @@
 
 .add-goto-img {
   width: 20px;
-  padding-left: 5px;
-  padding-right: 10px;
+  padding-right: 20px;
 }
 
+.filtri-div {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
 
+.filtri-button {
+  background-color: #2a2a2a;
+  color: white;
+  font-family: "Gotham Medium";
+  height: 30px;
+  padding: 0px 10px;
+  margin-bottom: 5px;
+  border: none;
+  margin-right: 5px;
+  border-radius: 20px;
+}
 
+.cerca-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cerca-div img {
+  width: 25px;
+}
+
+.cerca-div div {
+  display: flex;
+  align-items: center;
+}
+
+.cerca-div div p {
+  color: #b3b3b3;
+  padding-right: 10px;
+  font-family: "Gotham Bold";
+  font-weight: 100;
+}
+
+.cerca-div div img {
+  width: 20px;
+  height: 20px;
+  padding-right: 20px;
+}
+
+.leftbar-songs-div {
+  height: 68vh;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 190px;
+}
+
+.song-artist-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.song-artist-div img {
+  width: 55px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.song-artist-info-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-song-artist-div {
+  display: flex;
+  align-items: center;
+}
+
+.listening-song-artist-name-p {
+  font-family: "Gotham Light";
+  color: #1ed760;
+  padding-bottom: 8px;
+}
+
+.song-artist-name-p {
+  font-family: "Gotham Light";
+  color: white;
+  padding-bottom: 8px;
+}
+
+.artist-name-p {
+  font-family: "Gotham Light";
+  color: #b3b3b3;
+  font-size: 13px;
+}
+
+.listening-div {
+  display: flex;
+}
+
+.listening-div img {
+  width: 25px;
+}
+
+  
 
 
 .main-div {
@@ -56,22 +168,15 @@
   padding-top: 15px;
   padding-left: 15px;
   border-radius: 10px;
-  width: 1050px;
+  width: 55vw;
   margin-left: 10px;
   margin-right: 10px;
   height: 82vh;
 }
 
-@media screen and (min-width: 1845px) {
-  .main-div {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-
 .current-song-div {
   background-color: #121212;
-  width: 370px;
+  width: 20vw;
   border-radius: 10px;
   height: 82vh;
   padding-top: 15px;
