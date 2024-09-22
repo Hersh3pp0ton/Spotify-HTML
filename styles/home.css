@@ -245,7 +245,7 @@
 .playlist-songs-div {
   margin-top: 20px;
   background: linear-gradient(to bottom, #4e302b, #121212);
-  height: 200vh;
+  height: 127vh;
 }
 
 .tools-div {
@@ -333,6 +333,9 @@
   align-items: center;
   text-align: center;
 }
+
+
+
 
 
 
