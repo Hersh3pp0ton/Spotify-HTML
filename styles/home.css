@@ -334,14 +334,6 @@
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
 .current-song-div {
   background-color: #121212;
   width: 20vw;
@@ -349,4 +341,163 @@
   height: 82vh;
   padding-top: 15px;
   padding-left: 15px;
+  padding-right: 15px;
+  overflow-y: scroll;
+}
+
+.current-song-div::-webkit-scrollbar {
+  display: none;    /* Chrome, Safari and Opera */
+}
+
+.current-song-div {
+  -ms-overflow-style: none;   /* IE and Edge */
+  scrollbar-width: none;    /* Firefox */
+}
+
+.playlist-current-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.playlist-name-current-div-p {
+  font-size: 14px;
+}
+
+.dots-img-current-div {
+  width: 20px;
+  margin-right: 7px;
+}
+
+.current-song-img-div {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.current-song-img {
+  border-radius: 10px;
+  width: 30vw;
+  height: 40vh;
+}
+
+.current-song-info-div {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.current-song-info-name-artist-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.current-song-name-p {
+  font-size: 30px;
+}
+
+.current-song-artist-p {
+  font-family: "Gotham Light";
+  padding-top: 8px;
+  font-size: 16px;
+  color: #bcbdc6;
+}
+
+.favourite-img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.artist-info-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 15px;
+  padding-right: 10px;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+}
+
+.artist-info-img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 90px;
+  border-radius: 50%;
+}
+
+.monthly-listeners-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.monthly-listeners-p {
+  color: #b3b3b3;
+  font-family: "Gotham Light";
+  font-size: 15px;
+}
+
+.unfollow-button {
+  font-family: "Gotham Black";
+  border-radius: 20px;
+  border: 1px solid #b3b3b3;
+  background-color: #1f1f1f;
+  color: white;
+  height: 30px;
+  width: 130px;
+}
+
+.artist-info-p {
+  padding-top: 8px;
+  color: #b3b3b3;
+  font-family: "Gotham Light";
+  font-size: 13px;
+}
+
+.credits-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.credits-p {
+  font-family: "Gotham Light";
+  font-size: 14px;
+}
+
+.tour-date-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tour-img {
+  width: 80px;
+}
+
+.tour-info-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+.tour-place-artist-p {
+  color: white;
+  font-family: "Gotham Light";
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.tour-date-p {
+  color: #b3b3b3;
+  font-family: "Gotham Light";
+  font-size: 15px;
 }
